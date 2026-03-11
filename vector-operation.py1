@@ -1,0 +1,8 @@
+import numpy as np
+
+a = np.array([3, 4, 0])
+b = np.array([1, 2, 2])
+
+projection = (np.dot(a, b) / np.dot(b, b)) * b
+
+print("Projection of a onto b:", projection)
